@@ -1,0 +1,34 @@
+.kr-bg {
+    font-family: 'Metropolis';
+    background-image: url('/img/backgrounds/background_01.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.kr-bg-card {
+    background-color: rgba($color: $colonial_black, $alpha: 0.8);
+    backdrop-filter: blur(10px);
+}
+.kr-badge {
+    width: 50px;
+    height: 50px;
+    background-color: $colonial_orange;
+    color: $colonial_black;
+}
+.kr-img {
+    width: 160px;
+    height: 160px;
+}
+.kr-btn-outline {
+    color: $colonial_orange;
+    border: solid 1px $colonial_orange;
+}
+.kr-btn-outline:hover {
+    color: $colonial_black;
+    border: solid 1px $colonial_orange;
+    background-color: $colonial_orange;
+}
+.kr-icon {
+    color: $colonial_orange;
+}

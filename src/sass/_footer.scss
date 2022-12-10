@@ -1,0 +1,21 @@
+.bg-footer {
+    background-color: $colonial_black;
+    background-image: url('/img/backgrounds/wave_white_1.svg'), url('/img/backgrounds/ttten.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 150px;
+    // font-family: 'Metropolis';
+    // background-color: $colonial_orange;
+}
+.custom-map {
+    position: relative;
+    top: -150px;
+    margin-bottom: -150px;
+}
+.custom-border {
+    border-bottom: solid 1px $colonial_white;
+}
+.custom-border:hover {
+    border-bottom: solid 2px $colonial_orange;
+}
